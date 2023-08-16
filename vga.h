@@ -22,6 +22,8 @@ enum VGA_COLOR {
     VGA_COLOR_LIGHT_MAGENTA = 13,
     VGA_COLOR_LIGHT_BROWN = 14,
     VGA_COLOR_WHITE = 15,
+    
+    VGA_COLOR_COUNT = 16,
 };
 
 void vga_init(void);
